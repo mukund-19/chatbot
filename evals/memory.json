@@ -1,0 +1,12 @@
+[
+  { "id": "mem-01", "context": "User asked for phones under 30k", "followup": "Which one has better battery?", "expected_resolution": "Resolves current product candidates" },
+  { "id": "mem-02", "context": "User asked for sarees under 2000", "followup": "Pehle wale ko compare karo dusre se", "expected_resolution": "Resolves index 0 and 1" },
+  { "id": "mem-03", "context": "User viewing product list", "followup": "Add the first one to cart", "expected_resolution": "Calls addToCart with product at index 0" },
+  { "id": "mem-04", "context": "User asked question in English", "followup": "Hindi mein samjhao", "expected_resolution": "Switches output language while preserving context" },
+  { "id": "mem-05", "context": "User comparing laptops", "followup": "Isme kitne saal ki warranty hai?", "expected_resolution": "Resolves current active laptop context" },
+  { "id": "mem-06", "context": "User asked for shoes", "followup": "Is this available in size 9?", "expected_resolution": "Inspects size options for current shoe" },
+  { "id": "mem-07", "context": "User asked for sarees", "followup": "Isme blouse piece shamil hai?", "expected_resolution": "Inspects saree specification for blouse piece" },
+  { "id": "mem-08", "context": "User queried ORD-10025", "followup": "Kaunsa courier leke aa raha hai?", "expected_resolution": "References Delhivery Express from order" },
+  { "id": "mem-09", "context": "User added product to cart", "followup": "Mera cart dikhao", "expected_resolution": "Displays current cart items and total" },
+  { "id": "mem-10", "context": "User toggled personalization OFF", "followup": "Recommend top item", "expected_resolution": "Excludes past personal history" }
+]

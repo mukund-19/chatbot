@@ -1,0 +1,6 @@
+{
+  "name": "BharatShop AI",
+  "description": "AI-Powered Personalized Shopping Assistant for Indian E-Commerce with Multilingual Grounding, Catalog Intelligence, and Retention ML.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

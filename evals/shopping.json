@@ -1,0 +1,92 @@
+[
+  {
+    "id": "shop-01",
+    "input": "I need a phone under ₹30,000 with a good camera and battery.",
+    "expected_intent": "product_search",
+    "expected_tool": "searchProducts",
+    "expected_language": "en",
+    "expected_constraints": { "category": "Mobile Phones", "maxPrice": 30000, "prioritizeCamera": true, "prioritizeBattery": true },
+    "must_not_claim": "Products over ₹30,000 as within budget"
+  },
+  {
+    "id": "shop-02",
+    "input": "Show me student laptops under 40000 with 16GB RAM.",
+    "expected_intent": "product_search",
+    "expected_tool": "searchProducts",
+    "expected_language": "en",
+    "expected_constraints": { "category": "Laptops", "maxPrice": 40000 },
+    "must_not_claim": "Unsupported discounts"
+  },
+  {
+    "id": "shop-03",
+    "input": "Best noise cancelling earbuds under 3000.",
+    "expected_intent": "product_search",
+    "expected_tool": "searchProducts",
+    "expected_language": "en",
+    "expected_constraints": { "category": "Headphones", "maxPrice": 3000 },
+    "must_not_claim": "False battery figures"
+  },
+  {
+    "id": "shop-04",
+    "input": "I want an AMOLED smartwatch with calling under 4000.",
+    "expected_intent": "product_search",
+    "expected_tool": "searchProducts",
+    "expected_language": "en",
+    "expected_constraints": { "category": "Smartwatches", "maxPrice": 4000 },
+    "must_not_claim": "Non-existent medical accuracy"
+  },
+  {
+    "id": "shop-05",
+    "input": "Show me induction cooktops under 2000.",
+    "expected_intent": "product_search",
+    "expected_tool": "searchProducts",
+    "expected_language": "en",
+    "expected_constraints": { "category": "Kitchen", "maxPrice": 2000 },
+    "must_not_claim": "Over-budget products"
+  },
+  {
+    "id": "shop-06",
+    "input": "Find high speed 750W mixer grinders under 3000.",
+    "expected_intent": "product_search",
+    "expected_tool": "searchProducts",
+    "expected_language": "en",
+    "expected_constraints": { "category": "Kitchen", "maxPrice": 3000 },
+    "must_not_claim": "Fabricated motor specs"
+  },
+  {
+    "id": "shop-07",
+    "input": "White casual sneakers for men in size 9 under 2000.",
+    "expected_intent": "product_search",
+    "expected_tool": "searchProducts",
+    "expected_language": "en",
+    "expected_constraints": { "category": "Shoes", "size": "9", "maxPrice": 2000 },
+    "must_not_claim": "Wrong sizes"
+  },
+  {
+    "id": "shop-08",
+    "input": "Vitamin C serum for glowing skin under 500.",
+    "expected_intent": "product_search",
+    "expected_tool": "searchProducts",
+    "expected_language": "en",
+    "expected_constraints": { "category": "Skincare", "maxPrice": 500 },
+    "must_not_claim": "Medical cure claims"
+  },
+  {
+    "id": "shop-09",
+    "input": "Show 55 inch 4K smart TVs with Dolby Audio.",
+    "expected_intent": "product_search",
+    "expected_tool": "searchProducts",
+    "expected_language": "en",
+    "expected_constraints": { "category": "TV" },
+    "must_not_claim": "OLED specs for LED screens"
+  },
+  {
+    "id": "shop-10",
+    "input": "Affordable cotton kurtis with pants set under 1800.",
+    "expected_intent": "product_search",
+    "expected_tool": "searchProducts",
+    "expected_language": "en",
+    "expected_constraints": { "category": "Kurtis", "maxPrice": 1800 },
+    "must_not_claim": "Silk composition when cotton"
+  }
+]

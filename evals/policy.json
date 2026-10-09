@@ -1,0 +1,12 @@
+[
+  { "id": "pol-01", "input": "Return policy kya hai?", "expected_type": "return_policy", "expected_days_electronics": 7, "expected_days_fashion": 14 },
+  { "id": "pol-02", "input": "Can I exchange for a different size?", "expected_type": "exchange_policy", "expected_doorstep_swap": true },
+  { "id": "pol-03", "input": "What happens if I cancel before dispatch?", "expected_type": "cancellation_policy", "expected_full_refund": true },
+  { "id": "pol-04", "input": "Do you accept Cash on Delivery?", "expected_type": "cod_info", "expected_cod_limit": 10000 },
+  { "id": "pol-05", "input": "How many days does standard delivery take?", "expected_type": "delivery_policy", "expected_range": "2 to 4 business days" },
+  { "id": "pol-06", "input": "Is delivery free above ₹499?", "expected_type": "delivery_policy", "expected_free_threshold": 499 },
+  { "id": "pol-07", "input": "Are cosmetic items returnable?", "expected_type": "return_policy", "expected_hygiene_rule": "non-returnable" },
+  { "id": "pol-08", "input": "Kya UPI se refund turant milta hai?", "expected_type": "return_policy", "expected_disbursement": "24-48 hours" },
+  { "id": "pol-09", "input": "Can I pay with credit card EMI?", "expected_type": "payment_faq", "expected_emi": true },
+  { "id": "pol-10", "input": "Is doorstep exchange free for sarees?", "expected_type": "exchange_policy", "expected_free": true }
+]

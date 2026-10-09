@@ -1,0 +1,12 @@
+[
+  { "id": "grd-01", "claim": "Phone price is ₹24,999", "grounded_in": "products.price", "status": "verified" },
+  { "id": "grd-02", "claim": "Stock is 48 units", "grounded_in": "products.stock_qty", "status": "verified" },
+  { "id": "grd-03", "claim": "ORD-10025 status is shipped with Delhivery Express", "grounded_in": "orders", "status": "verified" },
+  { "id": "grd-04", "claim": "ORD-10026 contains Kanjivaram Soft Silk Saree", "grounded_in": "orders.items", "status": "verified" },
+  { "id": "grd-05", "claim": "Electronics return window is 7 days", "grounded_in": "knowledge_documents", "status": "verified" },
+  { "id": "grd-06", "claim": "Fashion return window is 14 days", "grounded_in": "knowledge_documents", "status": "verified" },
+  { "id": "grd-07", "claim": "COD limit is ₹10,000", "grounded_in": "knowledge_documents", "status": "verified" },
+  { "id": "grd-08", "claim": "Prestige mixer grinder is 750 Watts", "grounded_in": "products.specifications", "status": "verified" },
+  { "id": "grd-09", "claim": "Sony TV is 55 inch 4K Ultra HD", "grounded_in": "products.specifications", "status": "verified" },
+  { "id": "grd-10", "claim": "boAt Nirvana Ion ANC total battery is 120 hours", "grounded_in": "products.specifications", "status": "verified" }
+]

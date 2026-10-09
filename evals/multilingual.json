@@ -1,0 +1,95 @@
+[
+  {
+    "id": "ml-hi-01",
+    "input": "मुझे 2000 के अंदर लाल साड़ी चाहिए।",
+    "expected_intent": "product_search",
+    "expected_language": "hi",
+    "expected_constraints": { "category": "Sarees", "maxPrice": 2000, "color": "Red" }
+  },
+  {
+    "id": "ml-hi-02",
+    "input": "हिंदी में समझाओ कौन सा फोन बेहतर है।",
+    "expected_intent": "comparison",
+    "expected_language": "hi"
+  },
+  {
+    "id": "ml-hi-03",
+    "input": "रिटर्न पॉलिसी क्या है?",
+    "expected_intent": "return_policy",
+    "expected_language": "hi"
+  },
+  {
+    "id": "ml-hi-04",
+    "input": "मेरा आर्डर ORD-10025 कब पहुंचेगा?",
+    "expected_intent": "order_status",
+    "expected_language": "hi"
+  },
+  {
+    "id": "ml-hi-05",
+    "input": "कस्टमर केयर से बात करनी है।",
+    "expected_intent": "human_escalation",
+    "expected_language": "hi"
+  },
+  {
+    "id": "ml-hing-01",
+    "input": "Mujhe 2000 ke andar red saree chahiye aur Diwali se pehle delivery honi chahiye.",
+    "expected_intent": "product_search",
+    "expected_language": "hinglish",
+    "expected_constraints": { "maxPrice": 2000, "color": "Red", "requiresFastDelivery": true }
+  },
+  {
+    "id": "ml-hing-02",
+    "input": "Battery aur camera mein best kaunsa hai?",
+    "expected_intent": "comparison",
+    "expected_language": "hinglish"
+  },
+  {
+    "id": "ml-hing-03",
+    "input": "Pehle wale ko cart me add karo.",
+    "expected_intent": "cart_add",
+    "expected_language": "hinglish"
+  },
+  {
+    "id": "ml-hing-04",
+    "input": "Sasta aur accha Bluetooth earphone dikhao under 1500.",
+    "expected_intent": "product_search",
+    "expected_language": "hinglish",
+    "expected_constraints": { "maxPrice": 1500 }
+  },
+  {
+    "id": "ml-hing-05",
+    "input": "iPhone se sasta phone dikhao with better battery.",
+    "expected_intent": "product_search",
+    "expected_language": "hinglish"
+  },
+  {
+    "id": "ml-pa-01",
+    "input": "Punjabi vich samjhao kehra phone better aa",
+    "expected_intent": "comparison",
+    "expected_language": "pa"
+  },
+  {
+    "id": "ml-pa-02",
+    "input": "Mera order kado aavega?",
+    "expected_intent": "order_status",
+    "expected_language": "pa"
+  },
+  {
+    "id": "ml-bn-01",
+    "input": "Amake ekta bhalo phone dekhano 20000 er moddhe.",
+    "expected_intent": "product_search",
+    "expected_language": "bn"
+  },
+  {
+    "id": "ml-ta-01",
+    "input": "Enakku nalla camera phone venum 30000 kulla.",
+    "expected_intent": "product_search",
+    "expected_language": "ta"
+  },
+  {
+    "id": "ml-te-01",
+    "input": "Naaku 20000 lo manchi phone kaavali.",
+    "expected_intent": "product_search",
+    "expected_language": "te"
+  }
+]

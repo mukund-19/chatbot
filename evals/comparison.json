@@ -1,0 +1,12 @@
+[
+  { "id": "comp-01", "input": "Compare first and second.", "expected_intent": "comparison", "expected_tool": "compareProducts" },
+  { "id": "comp-02", "input": "Compare first and third.", "expected_intent": "comparison", "expected_tool": "compareProducts" },
+  { "id": "comp-03", "input": "Which one has a longer battery life?", "expected_intent": "comparison" },
+  { "id": "comp-04", "input": "Is the camera on OnePlus better than the Samsung one?", "expected_intent": "comparison" },
+  { "id": "comp-05", "input": "Pehle aur teesre wale ko compare karo.", "expected_intent": "comparison" },
+  { "id": "comp-06", "input": "In dono mein se kiska screen fast hai?", "expected_intent": "comparison" },
+  { "id": "comp-07", "input": "Compare MacBook Air and ASUS Vivobook.", "expected_intent": "comparison" },
+  { "id": "comp-08", "input": "Dono sarees me se wedding ke liye best konsi hai?", "expected_intent": "comparison" },
+  { "id": "comp-09", "input": "Compare noise cancelling between Sony and boAt.", "expected_intent": "comparison" },
+  { "id": "comp-10", "input": "Price aur warranty me difference kya hai?", "expected_intent": "comparison" }
+]
